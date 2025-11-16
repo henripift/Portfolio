@@ -1,0 +1,8 @@
+@import url(css/style.css);
+
+@font-face {
+    font-family: 'VT323';  /* Nom de la police, pas url() */
+    src: url('fonts/VT323/VT323-Regular.ttf') format('truetype');  /* L'URL va dans src */
+    font-weight: normal;
+    font-style: normal;  /* Manque le point-virgule */
+}

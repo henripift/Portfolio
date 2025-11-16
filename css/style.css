@@ -1,0 +1,66 @@
+html {
+    font-size: 16px;
+}
+
+main {
+    overflow: hidden;
+}
+
+h1, h3, h5, p, a{
+    font-family: 'VT323', monospace;
+    color: #495057 !important;
+    text-decoration: none !important;
+}
+
+.home{
+    min-height: 95vh;
+    min-width: 95vw;
+    overflow: hidden;
+}
+
+.home h1 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0;
+}
+
+.home h5 {
+    padding-top: 0 !important;
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style: none;
+    color: #495057;
+}
+
+ul li.disable {
+    display: none;
+}
+
+ul li.active a {
+    display: none;
+}
+
+.home div a {
+    font-size: 1.25rem;
+}
+
+.home div a:hover {
+    color: white !important;
+}
+
+.home video {
+    position: absolute;
+    top: 0;
+    left: 0;   
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
