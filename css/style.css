@@ -28,16 +28,16 @@ h1, h3, h5, p, a{
     font-size: 0.9rem;
 }
 
-ul {
+.home ul {
     list-style: none;
     color: #495057;
 }
 
-ul li.disable {
+.home ul li.disable {
     display: none;
 }
 
-ul li.active a {
+.home ul li.active a {
     display: none;
 }
 
