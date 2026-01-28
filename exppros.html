@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+    <title>PIFTEAU Henri</title>
+</head>
+<body class="bg-light">
+    <main>
+        <p class="copyright text-center"><em>Copyight © 2025 PIFTEAU Henri. Tout droit réservé.<a href="#waves" class="ms-5">Désactiver</a></em></p>
+        
+        <section id="home" class="min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="home border border-dark-subtle m-2">
+                <h1 class="p-3">Henri PIFTEAU</h1>
+                <h5 class="p-3">Etudiant en BTS SIO.</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="p-3">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="about.html">À propos de moi</a></li>
+                            <li class="disable"> • </li>
+                            <li class="active"><a href="exppros.html">Expériences professionnelles</a></li>
+                            <li class="active"> • </li>
+                            <li><a href="scolarite.html">Scolarité</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="projet.html">Projets</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exppros">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="exp1" class="fenetre ms-5">
+                                <h3 class="ms-3 mt-3 mb-4"><img src="medias/images/avatar.svg" alt="avatar" class="me-3">Vente de sites internet - Indépendant</h3>
+                                <p class="ms-3">Mission : Création et vente de sites internet vitrines.</p>
+                                <p class="ms-3">Aimant créer des sites internet sans pour autant avoir développer les compétences en programmation requises, j'ai décidé d'apprendre à utiliser le CMS Hostinger pour créer des sites vitrines. J'ai donc dû essayer de prospecter pour trouver des clients.</p>
+                                <h5 class="ms-3">Compétences développées : </h5>
+                                <ul class="ms-5">
+                                    <li class="ms-5">- CMS - Hostinger.</li>
+                                    <li class="ms-5">- Relation client.</li>
+                                    <li class="ms-5">- Analyse des besoins clients.</li>
+                                    <li class="ms-5">- UX/UI design.</li>
+                                </ul>
+                            </div>
+                            <div id="exp2" class="fenetre ms-5">
+                                <h3 class="ms-3 mt-3 mb-4"><img src="medias/images/education.svg" alt="avatar" class="me-3">Stage de troisième</h3>
+                                <p class="ms-3">Mission : Création de sites internet</p>
+                                <p class="ms-3">Durant ce stage j'ai eu l'occasion de concevoir mes premiers sites internet vitrine à l'aide des langages HTML et CSS.</p>
+                                <h5 class="ms-3">Compétences développées : </h5>
+                                <ul class="ms-5">
+                                    <li class="ms-5">- HTML5</li>
+                                    <li class="ms-5">- CSS3</li>
+                                </ul>
+                            </div>
+                            <div id="exp3" class="fenetre ms-5">
+                                <h3 class="ms-3 mt-3"><img src="medias/images/job.svg" alt="avatar" class="me-3">Emploi saisonnier</h3>
+                                <h5 class="ms-3 mb-4 mt-1">Boîte d'intérim : Synergie | Camping : SIBLU - Saint Jean de Mont (85)</h5>
+                                <p class="ms-3">Mission : Nettoyage de mobil homes</p>
+                                <p class="ms-3">Durant cet emploi saisonnier, j'ai dû nettoyer des mobil homes dans un camping à Saint Jean de Mont.</p>
+                                <h5 class="ms-3">Compétences développées : </h5>
+                                <ul class="ms-5">
+                                    <li class="ms-5">- Rigueur</li>
+                                    <li class="ms-5">- Gestion du temps</li>
+                                    <li class="ms-5">- Endurance</li>
+                                    <li class="ms-5">- Autonomie</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h1 class="text-end mb-3 me-5">Mes Expériences professionnelles</h1>
+                            <div class="exps d-flex flex-column align-items-end">
+                                <div class="exp d-flex flex-column align-items-start mb-5 me-5">
+                                    <h2 class="mb-5"><a href="#exp1"><span>1 </span>Vente de sites internets</a></h2>
+                                    <h2 class="mb-5"><a href="#exp2"><span>2 </span>Stage de troisième</a></h2>
+                                    <h2><a href="#exp3"><span>3 </span>Emploi saisonnier - été 2025</a></h2>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Cette balise fermante manquait pour .exppros -->
+                <spline-viewer url="https://prod.spline.design/pFoFjOE20mWRpS8D/scene.splinecode" loading="lazy" id="waves" class="waves-bg"></spline-viewer>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('click', function(e) {
+            const link = e.target.closest('a[href^="#"]');
+            if (!link) return;
+            
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const targetId = link.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+                // Retirer la classe active de tous les éléments
+                document.querySelectorAll('.fenetre.active, .waves-bg.active').forEach(el => {
+                    el.classList.remove('active');
+                });
+                
+                // Ajouter la classe au nouvel élément
+                targetElement.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>

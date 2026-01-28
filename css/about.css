@@ -1,0 +1,145 @@
+.carousel {
+    width: 100%;
+    overflow-x: auto; /* Permet aux blocs de dépasser */
+    padding-bottom: 10px;
+}
+
+.group {
+    gap: 1em;
+    width: max-content; /* Le conteneur prend toute la largeur nécessaire */
+    animation: spin;
+    animation: spin 20s infinite linear;
+    padding-right: 1em;
+}
+
+.group .bloc {
+    height: 25vh;
+    min-width: clamp(200px, 300px, 800px); 
+    max-width: 200px;
+    padding: 1em;
+    background-color: #495057ab;
+    color: white !important;
+    flex-shrink: 0; /* Empêche les blocs de rétrécir */
+    border-radius: 20px;
+    font-size: clamp(1.2rem, 1.6rem, 1.7rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bloc img {
+    width: clamp(80px, 90px, 110px);
+    margin-bottom: 10px;
+}
+
+.choix-competences {
+    gap: 1em;
+    
+}
+
+.carousel-competences {
+    overflow-y: auto;
+    max-height: 37vh;
+    scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-competences::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+@keyframes spin{
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+
+@media (min-width : 300px) {
+    .about {
+        max-width: 95vw;
+    }
+    .about p, .about a{
+        font-size: 0.85rem;
+        margin-left: auto;
+        margin-bottom: 5px;
+    }   
+
+    .about p {
+        max-width: 90%;
+    }
+
+    .about a {
+        margin-top: 0;
+        display: block;  /* Ajouter cette ligne */
+        font-size: 1rem !important;
+        text-decoration: underline !important;
+    }
+    .about2 li, .about3 li{
+        margin-left: auto;
+    }
+    .about3 li{
+        font-size: 0.9rem;
+    }
+
+    .about3 {
+        margin-top: 0px;
+    }   
+
+    .carousel-competences {display: none;}
+
+}
+
+@media (min-width : 360px) {
+    .about p, .about a{
+        font-size: 1rem;
+    }
+    
+    .about3 li{
+        font-size : 0.9rem
+    }
+}
+
+@media (min-width : 390px) {
+    .about3 h1 {
+        font-size: 1.5rem;
+    }
+    .about3 p a {
+        font-size: 1rem;
+    }
+    .about3 h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media (min-width : 800px) {
+    .about3 .container {
+        display: none;
+    }
+
+    .carousel-competences {display: block;}
+}
+
+@media (min-width : 1600px) {
+    .carousel-competences {
+        max-height: 45vh;
+    }
+}
+
+@media (min-width : 2000px) {
+    .group .bloc {
+        min-width: 600px !important;
+        font-size: clamp(1.2rem, 1.6rem, 1.7rem);
+    }
+
+    .bloc img {
+        width: clamp(80px, 90px, 110px);
+    }
+    
+}
+
+
+
+

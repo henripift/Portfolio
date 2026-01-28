@@ -1,8 +1,20 @@
 @import url(css/style.css);
+@import url(css/about.css);
+@import url(css/annonces.css);
+@import url(css/projet.css);
+@import url(css/exppros.css);
+@import url(css/scolarite.css);
 
 @font-face {
     font-family: 'VT323';  /* Nom de la police, pas url() */
     src: url('fonts/VT323/VT323-Regular.ttf') format('truetype');  /* L'URL va dans src */
+    font-weight: normal;
+    font-style: normal;  /* Manque le point-virgule */
+}
+
+@font-face {
+    font-family: 'Jesfin_Sans';  /* Nom de la police, pas url() */
+    src: url('fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');  /* L'URL va dans src */
     font-weight: normal;
     font-style: normal;  /* Manque le point-virgule */
 }

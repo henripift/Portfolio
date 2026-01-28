@@ -1,0 +1,44 @@
+.projets {
+    margin-top: -50px;
+}
+
+
+.projets h5 {
+    margin: 0;
+}
+
+.card {
+    max-width: 25%;
+    margin: 1%;
+}
+
+.card h5 {
+    color: black !important;
+}
+
+.card p {
+    color: black !important;
+}
+
+
+
+
+.comp-projets {
+    gap: 0.5em;
+    margin-bottom: -20px;
+}
+.comp-projets img{
+    width: 15px;
+}
+
+@media (min-width : 320px) {
+    .card p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width : 800px) {
+    .card {
+        max-width: 50%;
+    }
+}

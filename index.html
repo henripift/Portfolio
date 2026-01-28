@@ -5,36 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.16/build/spline-viewer.js"></script>
     <title>PIFTEAU Henri</title>
 </head>
 <body class="bg-light">
     <main>
+        <p class="copyright text-center"><em>Copyight © 2025 PIFTEAU Henri. Tout droit réservé.<a href="#waves" class="ms-5">Désactiver les vagues en fond.</a></em></p>
+        
         <section id="home" class="min-vh-100 d-flex align-items-center justify-content-center">
             <div class="home border border-dark-subtle m-2">
                 <h1 class="p-3">Henri PIFTEAU</h1>
-                <h5 class="p-3">Studying Computer Sciences</h5>
-                <ul class="p-3">
-                    <li class="active"><a href="">Home</a></li>
-                    <li class="active"> • </li>
-                    <li><a href="">About me</a></li>
-                    <li class="disable"> • </li>
-                    <li><a href="">Work experiences</a></li>
-                    <li class="disable"> • </li>
-                    <li><a href="">Education</a></li>
-                    <li class="disable"> • </li>
-                    <li><a href="">Projects</a></li>
-                    <li class="disable"> • </li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <div class="border border-dark-subtle p-5 m-5 d-flex flex-column">
-                    <h3 class="text-center">Welcome on my Portfolio</h3>
-                    <a href="https://bio.martinstools.com/@pifteauhenri#/" class="text-center">Biolink ➔</a>
+                <h5 class="p-3">Etudiant en BTS SIO.</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="p-3">
+                            <li class="active"><a href="index.html">Accueil</a></li>
+                            <li class="active"> • </li>
+                            <li><a href="about.html">À propos de moi</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="exppros.html">Expériences professionnelles</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="scolarite.html">Scolarité</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="projet.html">Projets</a></li>
+                            <li class="disable"> • </li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                        <div class="buttons-86 d-flex ms-3">
+                            <a href="https://bio.martinstools.com/@pifteauhenri#/"><button class="button-86 me-2" role="button">Mon BioLink ➔</button></a>
+                            <a href="infos/CV PIFTEAU Henri.pdf"><button class="button-86 me-2" role="button">Mon CV ➔</button></a>
+                            <a href="https://www.credly.com/users/henri-pifteau"><button class="button-86" role="button">Certfications ➔</button></a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="annonces">
+                            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="p-3 border border-dark-subtle">
+                                            <h3>Je suis à la recherche d'un stage en développement web et application.</h3>
+                                            <h4>Aux dates suivantes : <mark class="bg-warning">25/05/2026 au 26/06/2026</mark></h4>
+                                            <h5><a href="infos/recherche d'un stage.pdf" target="_blank">Voir plus ➔</a></h5>
+                                            <p class="text-end">06/12/2025 • 1 / 4</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="p-3 border border-dark-subtle">
+                                            <h3>Retrouvez moi sur LinkedIn !</h3>
+                                            <h4>J'ai repris de l'activité sur mon compte LinkedIn</h4>
+                                            <h5><a href="https://www.linkedin.com/in/henri-pifteau-b166a4352/" target="_blank">Mon LinkedIn ➔</a></h5>
+                                            <p class="text-end">06/12/2025 • 2 / 4</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="p-3 border border-dark-subtle">
+                                            <h3>Pas de panique !</h3>
+                                            <h4>Si vous n'avez pas accès à toutes les pages, c'est normal ! Il est en développement !</h4>
+                                            <p class="text-end">06/12/2025 • 3 / 4</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="p-3 border border-dark-subtle">
+                                            <h3>Pas de panique ! #2</h3>
+                                            <h4>Site internet pas encore responsive sur tous les appareils !</h4>
+                                            <p class="text-end">17/12/2025 • 4 / 4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <video autoplay="autoplay" muted="" loop="infinite" src="medias/video3.mp4"></video>
+                
+                
+                
+                <spline-viewer url="https://prod.spline.design/pFoFjOE20mWRpS8D/scene.splinecode" loading="lazy" id="waves" class="waves-bg"></spline-viewer>
             </div>
         </section>
     </main>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('click', function(e) {
+            const link = e.target.closest('a[href="#waves"]');
+            if (link) {
+                e.preventDefault();
+                e.stopPropagation();
+                
+                const waves = document.getElementById('waves');
+                if (waves) {
+                    // Toggle la classe pour cacher/afficher
+                    waves.classList.toggle('hidden');
+                    
+                    // Changer le texte du lien
+                    if (waves.classList.contains('hidden')) {
+                        link.textContent = 'Activer les vagues en fond.';
+                    } else {
+                        link.textContent = 'Désactiver les vagues en fond';
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>

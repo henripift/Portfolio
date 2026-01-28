@@ -1,0 +1,62 @@
+.exppros .exps .exp h3 {
+    margin: 0;
+}
+
+.exppros {
+    overflow: visible;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.exppros .row {
+    margin-bottom: 3rem;
+}
+
+.exppros .exps {
+    overflow-y: auto;
+    max-height: 50vh;
+    scroll-behavior: smooth;
+    margin-bottom: 3rem;
+}
+
+.exppros .exps .exp a:hover {
+    color: white !important;
+}
+
+.exppros .exps .exp a:hover span {
+    color: white !important;
+}
+
+.exppros .exps .exp span {
+    font-size: 5rem;
+}
+
+.exppros .exps::-webkit-scrollbar {
+    display: none;
+}
+
+.fenetre {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+    margin-top: 0;
+}
+
+.fenetre img{
+    max-width: 1.2em;
+}
+
+.fenetre.active {
+    max-height: none !important;
+    height: auto;
+    opacity: 1;
+    margin-bottom: 3rem !important;
+    background-color: #495057ab;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+
+.exppros .col-md-6:first-child {
+    margin-bottom: 5rem;
+}

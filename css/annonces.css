@@ -1,0 +1,48 @@
+.annonces .carousel-item div {
+    max-width: 90%;
+}
+
+.annonces .carousel-item div p {
+    margin: 0;
+}
+
+/* Solution : donner une hauteur minimale fixe au carousel */
+.annonces .carousel-inner {
+    min-height: 250px; /* Ajustez cette valeur selon vos besoins */
+}
+
+.annonces .carousel-item {
+    min-height: 250px; /* Même hauteur que le carousel-inner */
+}
+
+.annonces .carousel-item div {
+    max-width: 90%;
+    height: 100%; /* Pour que le div prenne toute la hauteur disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pour répartir le contenu verticalement */
+}
+
+.annonces .carousel-item div a{
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width : 600px) {
+    .annonces .carousel-item div h3{
+        font-size: 1.25rem;
+    }
+    .annonces .carousel-item div h4{
+        font-size: 1.2rem;
+    }
+    .annonces .carousel-item div h5, 
+    .annonces .carousel-item div p{
+        font-size: 0.85rem;
+    }
+    
+    /* Réduire la hauteur sur mobile si nécessaire */
+    .annonces .carousel-inner,
+    .annonces .carousel-item {
+        min-height: 280px; /* Ajustez selon vos besoins */
+    }
+}

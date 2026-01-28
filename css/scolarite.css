@@ -1,0 +1,15 @@
+.scolarite {
+    overflow-y: auto;
+    height: 50vh;
+}
+
+.scolarite::-webkit-scrollbar {
+    display: none;
+}
+
+.ecole {
+    border-radius: 20px;
+    background-color: #495057ab;
+    min-height: 30vh;
+    width: 60vw;
+}
