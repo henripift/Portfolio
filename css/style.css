@@ -27,7 +27,7 @@ main {
 
 
 .home {
-    height: 95vh; 
+    height: 90vh; 
     min-width: 95vw;
     width: 95vw;
     overflow: hidden;
@@ -133,6 +133,7 @@ main {
 
     .copyright {
         font-size: 0.65rem;
+        margin-bottom: -2rem;
     }
 
 }
