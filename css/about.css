@@ -13,7 +13,7 @@
 }
 
 .group .bloc {
-    height: 25vh;
+    height: 23vh;
     min-width: clamp(200px, 300px, 800px); 
     max-width: 200px;
     padding: 1em;
@@ -26,7 +26,7 @@
 }
 
 .bloc img {
-    width: clamp(80px, 90px, 110px);
+    width: clamp(70px, 80px, 100px);
     margin-bottom: 10px;
 }
 

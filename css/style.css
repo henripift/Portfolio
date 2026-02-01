@@ -30,8 +30,23 @@ main {
     height: 90vh; 
     min-width: 95vw;
     width: 95vw;
-    overflow: hidden;
-    position: relative; /* Changé de absolute à relative */
+    overflow-y: scroll; /* Ou auto */
+    position: relative;
+    
+    /* Pour Firefox */
+    scrollbar-width: none; 
+    
+    /* Pour Internet Explorer et Edge (anciennes versions) */
+    -ms-overflow-style: none;  
+}
+
+/* Pour Chrome, Safari, Edge et Opera */
+.home::-webkit-scrollbar {
+    display: none;
+}
+
+.home::-webkit-scrollbar {
+    display: none;
 }
 
 .home > * {
@@ -156,6 +171,12 @@ main {
         font-size : 15px !important;
     }
 
+}
+
+@media (max-width : 1300) {
+    .home {
+        max-height: 90vh;
+    }
 }
 
 @media (min-width : 1000px) {
