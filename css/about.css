@@ -93,7 +93,7 @@
 
 @media (min-width : 360px) {
     .about p, .about a{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     
     .about3 li{
